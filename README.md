@@ -11,13 +11,13 @@ Under the `data` folder, the directory format is as follows:
 Original and mask images share the same filenames.
 
 ## Preprocessing
-1. Run `mask_input_trans.py` to convert pixel value 255 in mask images to 1.
+Run `mask_input_trans.py` to convert pixel value 255 in mask images to 1.
 
 ## Configuration Adjustment
-2. Open `utils.py` and modify the input image size, preferably in multiples of 224x224.
+Open `utils.py` and modify the input image size, preferably in multiples of 224x224.
 ![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/73ddb586-5fc8-447b-b49f-032217e60f0d)
 
-3. Open `ce_net.py` and adjust the following values if needed:
+Open `ce_net.py` and adjust the following values if needed:
 ![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/c78e3b36-3a34-487b-8962-09008f6a9342)
 
 Some reference values:
@@ -28,7 +28,7 @@ Some reference values:
 `depths` refers to the number of CE_Transformer_Blocks.
 
 ## Training
-4. Open `train.py` and modify the following values:
+Open `train.py` and modify the following values:
 ![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/172e9d15-7c47-459d-9536-5947c3e57cc4)
    
 `CE_TransUnet` and `CE_TransTest` are optional.
@@ -37,13 +37,13 @@ Some reference values:
 Simply run `train.py` to initiate training.
 
 ## Testing
-5. Open `test.py` and make necessary modifications.
+Open `test.py` and make necessary modifications.
 ![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/a6ac9f4d-bb0f-4eea-b8df-263644642396)
 ![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/938880f8-9443-4399-9c10-1d0bb92b7973)
 
-7. Import the weight files into the `params` folder.
+Import the weight files into the `params` folder.
 
-8. Run `test.py` to execute testing.
+Run `test.py` to execute testing.
 
 ## Post-training Transformation
-8. Run `res_trans.py`.
+Run `res_trans.py`.
