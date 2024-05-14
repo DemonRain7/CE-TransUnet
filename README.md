@@ -1,4 +1,4 @@
-![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/fd928fdf-8954-4493-96cc-988883599d8f)# CE-TransUnet
+# CE-TransUnet
 This Repository is Code for 'CE-TransUnet: A Convolutional Enhanced Model for Pulmonary Alveolus Pathology Image Segmentation' on ICIC.
 
 You could follow the instruction below to reproduce our project:
