@@ -1,0 +1,2 @@
+Epoch [1/2] Average Loss: 0.6390 Average Accuracy: 67.02% Average Dice: 0.1623 Time: 2.49 seconds
+Epoch [2/2] Average Loss: 0.7121 Average Accuracy: 71.30% Average Dice: 0.0388 Time: 0.12 seconds
