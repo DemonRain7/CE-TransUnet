@@ -20,6 +20,7 @@ Original and mask images share the same filenames.
    ![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/c78e3b36-3a34-487b-8962-09008f6a9342)
 
    Some reference values:
+   
    ![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/87eddbb9-059f-4524-b9eb-7e6b4aa3eff0)
 
    - `embed_dim=96` corresponds to `num_heads(3, 6, 12, 24)`.
