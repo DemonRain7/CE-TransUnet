@@ -39,7 +39,6 @@ Original and mask images share the same filenames.
 ### Testing
 5. Open `test.py` and make necessary modifications.
 ![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/a6ac9f4d-bb0f-4eea-b8df-263644642396)
-
 ![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/938880f8-9443-4399-9c10-1d0bb92b7973)
 
 7. Import the weight files into the `params` folder.
