@@ -15,14 +15,14 @@ Run `mask_input_trans.py` to convert pixel value 255 in mask images to 1.
 
 ## Configuration Adjustment
 Open `utils.py` and modify the input image size, preferably in multiples of 224x224.
-![image](https://github.com/DemonRain7/CE-TransUnet/readme_img/1.png)
+![](readme_img/1.png)
 
 Open `ce_net.py` and adjust the following values if needed:
-![image](https://github.com/DemonRain7/CE-TransUnet/readme_img/2.png)
+![](readme_img/2.png)
 
 Some reference values:
 
-![image](https://github.com/DemonRain7/CE-TransUnet/readme_img/3.png)
+![](readme_img/3.png)
 
 - `embed_dim=96` corresponds to `num_heads(3, 6, 12, 24)`.
 - `embed_dim=128` corresponds to `num_heads(4, 8, 16, 32)`.
@@ -30,17 +30,17 @@ Some reference values:
 
 ## Training
 Open `train.py` and modify the following values:
-![image](https://github.com/DemonRain7/CE-TransUnet/readme_img/4.png)
+![](readme_img/4.png)
    
 `CE_TransUnet` and `CE_TransTest` are optional.
-![image](https://github.com/DemonRain7/CE-TransUnet/readme_img/5.png)
+![](readme_img/5.png)
 
 Simply run `train.py` to initiate training.
 
 ## Testing
 Open `test.py` and make necessary modifications.
-![image](https://github.com/DemonRain7/CE-TransUnet/readme_img/6.png)
-![image](https://github.com/DemonRain7/CE-TransUnet/readme_img/7.png)
+![](readme_img/6.png)
+![](readme_img/7.png)
 
 Import the weight files into the `params` folder.
 
