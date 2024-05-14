@@ -15,7 +15,7 @@ Run `mask_input_trans.py` to convert pixel value 255 in mask images to 1.
 
 ## Configuration Adjustment
 Open `utils.py` and modify the input image size, preferably in multiples of 224x224.
-![](readme_img/1.png)
+![1](readme_img/1.png)
 
 Open `ce_net.py` and adjust the following values if needed:
 ![](readme_img/2.png)
