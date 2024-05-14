@@ -29,18 +29,21 @@ Original and mask images share the same filenames.
 ### Training
 4. Open `train.py` and modify the following values:
    ![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/172e9d15-7c47-459d-9536-5947c3e57cc4)
+   
    `CE_TransUnet` and `CE_TransTest` are optional.
    ![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/90dce3aa-1a5f-453f-b9d0-114f007d8c4b)
+   
    Simply run `train.py` to initiate training.
 
 ### Testing
 5. Open `test.py` and make necessary modifications.
 ![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/a6ac9f4d-bb0f-4eea-b8df-263644642396)
+
 ![image](https://github.com/DemonRain7/CE-TransUnet/assets/102237492/938880f8-9443-4399-9c10-1d0bb92b7973)
 
-6. Import the weight files into the `params` folder.
+7. Import the weight files into the `params` folder.
 
-7. Run `test.py` to execute testing.
+8. Run `test.py` to execute testing.
 
 ### Post-training Transformation
 8. Run `res_trans.py`.
