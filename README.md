@@ -20,13 +20,6 @@ Open `utils.py` and modify the input image size, preferably in multiples of 224x
 Open `ce_net.py` and adjust the following values if needed:
 ![](readme_img/2.png)
 
-Some reference values:
-
-![](readme_img/3.png)
-
-- `embed_dim=96` corresponds to `num_heads(3, 6, 12, 24)`.
-- `embed_dim=128` corresponds to `num_heads(4, 8, 16, 32)`.
-`depths` refers to the number of CE_Transformer_Blocks.
 
 ## Training
 Open `train.py` and modify the following values:
