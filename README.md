@@ -1,7 +1,7 @@
 # CE-TransUnet
 
 This Repository is Code for 'CE-TransUnet: A Convolutional Enhanced Model for Pulmonary Alveolus Pathology Image Segmentation' on ICIC.
-Link: http://poster-openaccess.com/files/icic2024/1949.pdf
+Link: [http://poster-openaccess.com/files/icic2024/1949.pdf](http://poster-openaccess.com/files/icic2024/1949.pdf)
 
 You could follow the instruction below to reproduce our project:
 
